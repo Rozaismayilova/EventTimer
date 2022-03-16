@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+
+}
+.left{
+    width: 60%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    width: 40%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    background-color: #00008B;
+}
+.title-description{
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
+    margin: 0 auto;
+    text-align: left;
+}
+button{
+    color: white;
+    background-color: #2a2abe;
+    width: 400px;
+    height:40px ;
+    margin:25px 0;
+
+}
+.form{
+    text-align: center;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.title-description input{
+    width: 400px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.title-description .description{
+    height: 100px;
+}
+.form .date{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    width: 100%;
+}
+.form .date input{
+    width: 40%;
+    height: 40px;
+}
+.card{
+    width:200px;
+    background-color: wheat;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    cursor: move;
+
+}
+.titleDes{
+    background-color:yellow;
+    color: black;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.time{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+}
+.deleteBtn{
+    width: 60px;
+    height: 20px;
+    font-size: 13px;
+    background-color: black;
+}
